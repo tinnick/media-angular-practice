@@ -2,19 +2,23 @@
 
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-ivy-safdxm)
 
-## Angular講座課題１
+以下のMarkdownファイルからそれぞれの課題を確認してください。
+課題の説明は講座の中でしており、動画化されています。（課題の中にリンク有り）
 
-以下の項目の内容を含んだ stackblitz プロジェクトを作成し Slack にて提出してください。\
-それぞれの内容を動画で説明しておりますのでご確認ください：\
-https://drive.google.com/file/d/1_QC6G0fmDfUBjeRM-Tf8ZwGSIgBLkMSb/view?usp=sharing
+提出の方法は Media部のSlackにて stackblitz へのリンクを添付して提出してください。
 
+例：
+```
+講座２の課題を提出致します：
+{ ここにリンク }
 
-* Component
-* ngStyle
-* ngClass
-* Pipe
-* Directive
-* structral-directive
+よろしくお願い致します。
+```
 
-### 以下参照：
-* https://angular.io/guide/what-is-angular（この中で全て説明されています）
+分からないことがありましたら週末でも Media部 Slackにて聞いてください。
+なお、技術的な質問に関しては、まず先にドキュメントを見ることを心がけてください。
+
+以上、よろしくお願い致します！
+
+## 課題リスト：
+* [講座２の課題 ~ ComponentとTemplate周辺機能](./kadai/1.md)
