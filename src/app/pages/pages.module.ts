@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { PagesRoutingModule } from './pages-routing.module';
 import { HeaderModule } from '../shared/header';
-import { BasePageWrapperComponent } from './templates/base-page-wrapper/base-page-wrapper.component';
+import { BasePageWrapperComponent } from './templates';
 
 
 @NgModule({
@@ -14,4 +14,4 @@ import { BasePageWrapperComponent } from './templates/base-page-wrapper/base-pag
     PagesRoutingModule
   ]
 })
-export class PagesModule { }
+export class PagesModule {}

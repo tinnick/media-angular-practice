@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { RandomBackgroundDirective } from './directives/random-background/random-background.directive';
+import { RandomBackgroundDirective } from './directives';
 
 @NgModule({
   declarations: [RandomBackgroundDirective],

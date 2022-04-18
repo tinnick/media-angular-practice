@@ -16,7 +16,7 @@ import { Component } from '@angular/core';
 export class TopPageComponent {
   public sqaureClasses: string[] = ['square', 'd-flex', 'flex-column'];
   public squareColored: boolean = false;
-  
+
   public data = [
     {
       hello: 'world',
@@ -33,10 +33,6 @@ export class TopPageComponent {
   ];
 
   public dataBase64 = btoa( JSON.stringify( this.data ) );
-
-  public product = {
-    image: 'https://image.com/product-image.png'
-  };
 
   public articleTitle: string = 'The new jearjey homestore massacre';
 
@@ -61,20 +57,3 @@ export class TopPageComponent {
     }
   }
 }
-
-
-    const obj = {
-      hello: 'world',
-      can: 'juice',
-    };
-
-    const obj2 = [
-    {
-      key: 'hello',
-      value: 'world'
-    },
-    {
-      key: 'can',
-      value : 'juice'
-    }
-  ]

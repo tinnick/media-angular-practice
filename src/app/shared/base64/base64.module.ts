@@ -8,6 +8,7 @@ import { Base64Pipe } from './base64.pipe';
   declarations: [Base64Pipe],
   imports: [
     CommonModule
-  ]
+  ],
+  exports: [Base64Pipe]
 })
 export class Base64Module { }

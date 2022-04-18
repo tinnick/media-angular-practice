@@ -8,5 +8,4 @@ export class Base64Pipe implements PipeTransform {
   transform(value: string, decode: boolean = false): string {
     return decode ? atob(value) : btoa(value);
   }
-
 }
