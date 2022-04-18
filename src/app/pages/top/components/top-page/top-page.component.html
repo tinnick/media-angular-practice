@@ -6,10 +6,14 @@ TOP PAGE CONTENT
   [class.colored]="squareColored"
   (click)="toggleVibes(); toggleSquareBackgroundColor()"
 >
-  {{ data | json }}
+  {{ data | json | base64 }}
+
+  {{ dataBase64 | base64 : true }}
 </div>
 
 <button mat-button>this is a mat-button directive</button>
+
+<div class="products" [style.background]="product.image | noRepeatBackgroundImage"></div>
 
 <div class="product-list-container" random-background>
   <div
@@ -24,6 +28,13 @@ TOP PAGE CONTENT
     {{ obj | json }} {{ index }}
 
     <ng-container *ngIf="first"> index is zero! </ng-container>
+
+    <ul *ngFor="let objkeyValue of obj | keyvalue; let first = first">
+      <div class="header" *ngIf="first">{{ objkeyValue.key }}</div>
+
+      <li> {{ objkeyValue.value }} </li>
+
+    </ul>
     <!--
     <div *ngIf="obj.hello === 'world'" [style.color]="'blue'">
       I am the world

@@ -6,6 +6,7 @@ import { TopRoutingModule } from './top-routing.module';
 import { TopPageComponent } from './components';
 
 import { RandomBackgroundModule } from '../../shared/random-background/random-background.module';
+import { Base64Module } from '../../shared/base64/base64.module';
 
 
 @NgModule({
@@ -15,6 +16,7 @@ import { RandomBackgroundModule } from '../../shared/random-background/random-ba
     TopRoutingModule,
     MatButtonModule,
     RandomBackgroundModule,
+    Base64Module
   ]
 })
 export class TopModule {}
