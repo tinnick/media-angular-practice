@@ -5,6 +5,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { TopRoutingModule } from './top-routing.module';
 import { TopPageComponent } from './components';
 
+<<<<<<< HEAD
 import { RandomBackgroundModule } from '../../shared/random-background/random-background.module';
 
 
@@ -13,8 +14,12 @@ import { RandomBackgroundModule } from '../../shared/random-background/random-ba
   imports: [
     CommonModule,
     TopRoutingModule,
-    MatButtonModule,
-    RandomBackgroundModule,
+    RandomBackgroundModule
   ]
+=======
+@NgModule({
+  declarations: [TopPageComponent],
+  imports: [CommonModule, MatButtonModule, TopRoutingModule],
+>>>>>>> f5fb78785b1d83316fbf1237a527d1acd55738e6
 })
 export class TopModule {}
