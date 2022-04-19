@@ -6,6 +6,10 @@ const routes: Routes = [
     path: '',
     loadChildren: () => import('./pages').then((mod) => mod.PagesModule),
   },
+  {
+    path: '**',
+    redirectTo: 'about'
+  }
 ];
 
 @NgModule({

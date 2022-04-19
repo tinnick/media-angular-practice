@@ -9,6 +9,11 @@ const routes: Routes = [
     component: BasePageWrapperComponent,
     loadChildren: () => import('./top').then((mod) => mod.TopModule),
   },
+  {
+    path: 'about',
+    component: BasePageWrapperComponent,
+    loadChildren: () => import('./about').then((mod) => mod.AboutModule)
+  }
 ];
 
 @NgModule({
