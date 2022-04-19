@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
 // structral-directive
 
 @Component({
-  selector: 'app-top-page',
+  selector: 'fw-top-page',
   templateUrl: './top-page.component.html',
   styleUrls: ['./top-page.component.scss']
 })
