@@ -1,0 +1,17 @@
+:host {
+  margin: auto;
+  display: block;
+  width: 100%;
+  padding: 0 5vw;
+}
+
+.image-size-form-field-container {
+  margin-top: 30px;
+}
+
+.image-size-form-field {
+
+  &--height {
+    margin-left: 30px;
+  }
+}

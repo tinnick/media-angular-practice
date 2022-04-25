@@ -1,5 +1,18 @@
 <mat-tab-group [(selectedIndex)]="activeTabIndex">
-  <mat-tab label="First"> Content 1 </mat-tab>
+  <mat-tab label="First" class="mat-tab--first">
+    <form class="image-size-form-field-container" [formGroup]="formGroup">
+      <mat-form-field class="image-size-form-field--width">
+        <input class="image-size-form-field--width" matInput type="number" placeholder="width" formControlName="width">
+      </mat-form-field>
+    
+      <mat-form-field class="image-size-form-field--height">
+        <input class="image-size-form-field--height--input" matInput type="number" placeholder="height" formControlName="height">
+      </mat-form-field>
+    </form>
+
+    <img *ngFor="let src of topImages" [src]="src" alt="">
+  </mat-tab>
+
   <mat-tab label="Second"> Content 2 </mat-tab>
   <mat-tab label="Third"> Content 3 </mat-tab>
 </mat-tab-group>
